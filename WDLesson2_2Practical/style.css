@@ -6,9 +6,13 @@
 */
 
 /* Challenge 5: Change the family of all elements to Arial */
-
+html{
+   font-family:arial;
+}
 /* Challenge 6: Change the background color to blue, the color of the text to white for all elements 
 with a class of "info" */
+background-color:blue;
+
 
 /* Challenge 7: Add a border of 2px solid red for all elements with a class of "highlight" */
 .highlight{
