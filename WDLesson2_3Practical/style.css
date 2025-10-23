@@ -15,7 +15,7 @@ img {
              3) background image to Linear-Gradients(to right,blue,white)
 
 /* Challenge 7: For the HTML element with an id of "logo_container" align the text in the center */
-#logo_container {
+#logocontainer {
   text-align: center;
 }
 
@@ -34,5 +34,8 @@ div {
                 2) family of font to "Arial", 
                 3) color of the background to rgb(0,0,255)  
                 4) color of the text to white for the  white
-*/
+*/                #main_container 
+                    font-size:24pt;
+                    font family:arial
+
 
