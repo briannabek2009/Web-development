@@ -27,7 +27,7 @@ a{
 /* Challenge 10: Modify the below CSS rule in order set the flex property for all the hyperlinks in the nav element to 1 */
 nav a{
  flex:1;
-  text-align:center;
+  
   padding:10px;
   transition:0.5s
 }
