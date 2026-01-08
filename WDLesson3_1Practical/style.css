@@ -33,6 +33,6 @@
 
 /* Challenge 7: When the user hovers an image change the color of the shadow to red */
 .container img:hover {
-  box-shadow: 0 4px 8px red;
+  box-shadow: 0 4px 8px rgb(214, 11, 11);
 }
 
