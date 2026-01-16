@@ -21,7 +21,7 @@ let x1 = parseFloat(document.getElementById("x1").value);
 
 // Challenge 6:  Create the function for the BMI program.  Refer to the resource link in the HTML for assistance.
  function BMI (){
-let x1 = parseFloat(document.getElementById("x1").value);
-     let y1 = parseFloat(document.getElementById("y1").value);
+let ht= parseFloat(document.getElementById("ht").value);
+     let wt = parseFloat(document.getElementById("wt").value);
       
-      let output = document.getElementById("output_Slope");
+      let output = document.getElementById("output_BMI");
