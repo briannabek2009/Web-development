@@ -1,12 +1,12 @@
 // Challenge 2:  Create the function for the Average program.  Refer to the resource link in the HTML for assistance.
 function average(){
-    let g1 = parseFloat(document.getElementById("g1").value);
-     let g2 = parseFloat(document.getElementById("g2").value);
+      let g1 = parseFloat(document.getElementById("g1").value);
+      let g2 = parseFloat(document.getElementById("g2").value);
       let g3 = parseFloat(document.getElementById("g3").value);
       let output = document.getElementById("output_average");
 
-average = (g1 + g2 + g3)/3;
-output.innerHTML= "average is" + average
+      let avg = (g1 + g2 + g3)/3;
+      output.innerHTML= "average is" + avg
 }
 
 // Challenge 4:  Create the function for the Slope program.  Refer to the resource link in the HTML for assistance.
@@ -16,9 +16,9 @@ output.innerHTML= "average is" + average
           let x2 = parseFloat(document.getElementById("x2").value);
           let y2 = parseFloat(document.getElementById("y2").value);
           let output = document.getElementById("output_Slope");
-          let m=(y1-y2)/(x1-x2)
+          let m=(y1-y2)/(x1-x2);
         
-output.innerHTML= "Slope is" + Slope
+          output.innerHTML= "Slope is" + m
  }
 
 // Challenge 6:  Create the function for the BMI program.  Refer to the resource link in the HTML for assistance.
