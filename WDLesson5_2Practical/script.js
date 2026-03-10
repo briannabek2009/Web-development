@@ -16,22 +16,17 @@ Now that you have the template, use a for loop to produce all five pizza cards.
 
 //init() function is called when the page loads in index.html
 function init(){
-    let output=""
+ 
+let output = document.getElementById("output");
 
-     let bulid =""
-    for( let i = 0; i<10; i+= 1)}
-    build += ` <div id="output" class="container center">`
-    build += ` <img src="logo.png" >  `
-    build += `<img src =" pizza1.jpg" div class = "pizza">`
-    build += `< img src = " title1. png div class="title"> `
-    build += `<img src =" pizza2.jpg" div class = "pizza">`
-    build += `< img src = " title2. png div class="title"> `
-    build += `<img src =" pizza3.jpg" div class = "pizza">`
-    build += `< img src = " title3. png div class="title"> `
-    build += `<img src =" pizza4.jpg" div class = "pizza">`
-    build += `< img src = " title4. png div class="title"> `
-    build += `<img src =" pizza5.jpg" div class = "pizza">`
-        build += `< img src = " title5. png div class="title"> `
+let build = "";
+for( let i = 1; i <=5; i += 1{
 
-
-
+   let n = math.floor (Math.random() * 4 + 5 );
+   build += `<div>`;
+   build += `<img src= title${i}.jpg>`
+   build += `<img src= title${i}.jpg>`
+   build +=`<span>$${n}</span>`;
+   build += ` </div>`;
+}
+  output.innerHTML = build;
