@@ -11,9 +11,24 @@
 */
 
 function balance(){
+let P = parseFloat(document.getElementById("P").value); 
+let r= parseFloat(document.getElementById("r").value);
+let n = parseFloat(document.getElementById("n").value);
+let t= parseFloat(document.getElementById("t").value);
+let output = document.getElementById("output")
+let msg =""
 
+let build = "table ";
+ for( let i = 0 ; i < 10; i += 1){
+let a = P*(1 + r/n )**(n * i)/100
+build += `Year ${i}: $${a.toFixed(2)}<br>` ;
 
 }
+        }
+output.innerHTML = build;
+
+    
+
 
 /* Challenge Bonus: Allow the user to enter n.  This will require you to modify,
         1) Retrieve the value of n from the user.
