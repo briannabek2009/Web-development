@@ -34,12 +34,19 @@ for(let i=0; i< seafoods.length; i+=1){
       build+=`<div>`;
       build+=`   <h2>${seafood_titles[i] } </h2>`;
       build+=`   <img src="${seafoods[i]}">`;
-      build+=`  <span>${seafood_prices[i]}</span>`
+      build+=`  <span>${seafoods_prices[i]}</span>`
       build+=`</div>`;
      }
     s.innerHML = build;
   //Challenge 6:  Build cards for the desserts. Place the build in the dessert container.
-
+for(let i=0; i< dessert.length; i+=1){
+      build+=`<div>`;
+      build+=`   <h2>${desserts_titles[i] } </h2>`;
+      build+=`   <img src="${desserts[i]}">`;
+      build+=`  <span>${desserts_prices[i]}</span>`
+      build+=`</div>`;
+     }
+    d.innerHML = build;
   /*Notes for Challenges 4 through 6:
       1) Each challenge requires its own for loop to build the output.
       2) You can reuse the build variable as long as you set it back to `` before each loop.
