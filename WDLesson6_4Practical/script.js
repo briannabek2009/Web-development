@@ -1,6 +1,6 @@
 async function init(){
   // Challenge 1: Retrieve the FBI data from https://raw.githubusercontent.com/rcastro2/WebDevelopment/refs/heads/main/data/fbi.json
-  let link = ""
+  let link = ""https://raw.githubusercontent.com/rcastro2/WebDevelopment/refs/heads/main/data/fbi.json""
   info = await fetch(link);
   data = await info.json();
   
