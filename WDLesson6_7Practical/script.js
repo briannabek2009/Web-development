@@ -10,15 +10,20 @@ let build ="";
 
 for(let i = 0; i < data.length; i+=1){
     let collision = data[i];
-    build += `<div class="card">
+    build += `<div class="fitted card">
           
-    build+=`<h2> ${collision.name}</h2>;
-    <p> ${collision.crash_date}</p>
-    <p> ${collision.crash_time}</p>
+   <h2> ZIP:  ${collision.zip_code}</h2>;
+    <p> Date  :   ${collision.crash_date}</p>
+    <p> Crash Time:  ${collision.crash_time}</p>
+    <p> Street Name:  ${collision.street_name}</p>
+    <p> Borough:  ${collision.borough}</p>
+    <p>Injured:   ${collision.number_of_persons_injured}</p>
+
+
                  
     
-    </div>
-    `
+    </div>`
+    
 }
 output.innerHTML= build;
 }
