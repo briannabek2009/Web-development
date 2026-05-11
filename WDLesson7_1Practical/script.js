@@ -8,7 +8,7 @@ function init(){
 
 
   //Challenge 2: Use the function celsius(  ) created in helper.js to celsius equivalent of any fahrenheit temperature. 
-
+for
 
   //Challenge 4: Set height and weight to appropriate numbers. Pass the variables as arguments to the bmi() created in Challenge 3 and store in a variable called b. Display the value of b.
   let height;
