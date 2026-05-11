@@ -10,7 +10,7 @@ function card(info){
      <div class=" card">
         <h2> ${info.plate}</h2>
         <p>${info.violation}</P>
-        <a href="${info.summons_image}" target="_blank">Ticket</a>
+        <a href="${info.summons_image.url}" target="_blank">Ticket</a>
   
         </div>
 `;
